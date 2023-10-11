@@ -149,18 +149,15 @@ html {
   background-color: rgb(255, 255, 255);
   border-color: rgba(242, 210, 206, 0.762);
 }
-
-.vehiculos_home > h1 li {
+.vehiculos_home h1 li {
   border-image: center;
   text-decoration: none;
 }
-
 .vehiculos_home h1 li a {
   color: black;
   text-decoration: none;
 }
-
-.navegacion_vehiculos {
+.vehiculos_home nav .navegacion_vehiculos {
   width: 80%;
   margin: 2rem;
   display: flex;
@@ -170,36 +167,27 @@ html {
   font-size: 0;
   justify-content: space-between;
 }
-
-.navegacion_vehiculos li {
+.vehiculos_home nav .navegacion_vehiculos li {
   background-color: rgba(242, 241, 241, 0.718);
   border-radius: 10%;
 }
-
-.navegacion_vehiculos > ul li {
-  display: inline-block;
-  width: 20%;
-  position: relative;
-  background: #e1a4a4;
-}
-
-.navegacion_vehiculos li a {
+.vehiculos_home nav .navegacion_vehiculos li a {
   display: block;
   text-decoration: none;
   font-size: 1.8rem;
   line-height: 2.5rem;
-  color: #000000;
+  color: #090909;
 }
-
-.navegacion_vehiculos li:hover a {
-  background: #636363;
+.vehiculos_home nav .navegacion_vehiculos li:hover a {
+  background: rgba(123, 123, 123, 0.5647058824);
   border-radius: 2rem;
-  color: #6f0f0f;
+  color: #ab0808;
 }
-
-.pag-computacion {
-  display: flex;
-  flex-direction: column;
+.vehiculos_home nav .navegacion_vehiculos ul li {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  background: #e1a4a4;
 }
 
 .computacion_home h1 {
@@ -211,19 +199,16 @@ html {
   background-color: rgb(255, 255, 255);
   border-color: rgba(242, 210, 206, 0.762);
 }
-
-.computacion_home > h1 li {
+.computacion_home h1 li {
   border-image: center;
   justify-content: center;
   align-items: center;
 }
-
 .computacion_home h1 li a {
   color: black;
   text-decoration: none;
 }
-
-.navegacion_computacion {
+.computacion_home nav .navegacion_computacion {
   width: 80%;
   margin: 1rem;
   display: flex;
@@ -234,31 +219,27 @@ html {
   gap: 4;
   justify-content: space-evenly;
 }
-
-.navegacion_computacion li {
+.computacion_home nav .navegacion_computacion li {
   background-color: rgba(242, 241, 241, 0.718);
   border-radius: 10%;
 }
-
-.navegacion_computacion > ul li {
-  display: inline-block;
-  width: 20%;
-  position: relative;
-  background: #e1a4a4;
-}
-
-.navegacion_computacion li a {
+.computacion_home nav .navegacion_computacion li a {
   display: block;
   text-decoration: none;
   font-size: 1.8rem;
   line-height: 2.5rem;
   color: #090909;
 }
-
-.navegacion_computacion li:hover a {
+.computacion_home nav .navegacion_computacion li:hover a {
   background: rgba(123, 123, 123, 0.5647058824);
   border-radius: 2rem;
   color: #ab0808;
+}
+.computacion_home nav .navegacion_computacion ul li {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  background: #e1a4a4;
 }
 
 .social_home h1 {
@@ -437,12 +418,10 @@ html {
   background-color: rgba(230, 230, 230, 0.718);
   border-radius: 10%;
 }
-
 .destacado-vehiculos h2 {
   color: black;
   font-weight: bold;
 }
-
 .destacado-vehiculos div {
   color: rgb(53, 52, 52);
   font-weight: 600;
@@ -456,63 +435,51 @@ html {
   justify-content: space-between;
   box-shadow: 2px 2px 2px 2px gray;
 }
-
-.noticia-1V {
+.noticias-vehiculos .noticia-1V {
   display: flex;
   flex-direction: row;
   justify-content: left;
 }
-
-.noticia-1V img {
+.noticias-vehiculos .noticia-1V img {
   border-radius: 360%;
 }
-
-.noticia-1V h5 {
+.noticias-vehiculos .noticia-1V h5 {
   color: #000;
   font-weight: bold;
 }
-
-.noticia-1V div {
+.noticias-vehiculos .noticia-1V div {
   color: rgb(53, 52, 52);
   font-weight: 600;
 }
-
-.noticia-2V {
+.noticias-vehiculos .noticia-2V {
   display: flex;
   flex-direction: row;
   justify-content: right;
 }
-
-.noticia-2V img {
+.noticias-vehiculos .noticia-2V img {
   border-radius: 360%;
 }
-
-.noticia-2V h5 {
+.noticias-vehiculos .noticia-2V h5 {
   color: #000;
   font-weight: bold;
 }
-
-.noticia-2V div {
+.noticias-vehiculos .noticia-2V div {
   color: rgb(53, 52, 52);
   font-weight: 600;
 }
-
-.noticia-3V {
+.noticias-vehiculos .noticia-3V {
   display: flex;
   flex-direction: row;
   justify-content: left;
 }
-
-.noticia-3V img {
+.noticias-vehiculos .noticia-3V img {
   border-radius: 360%;
 }
-
-.noticia-3V h5 {
+.noticias-vehiculos .noticia-3V h5 {
   color: #000;
   font-weight: bold;
 }
-
-.noticia-3V div {
+.noticias-vehiculos .noticia-3V div {
   color: rgb(53, 52, 52);
   font-weight: 600;
 }

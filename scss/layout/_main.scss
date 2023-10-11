@@ -121,14 +121,14 @@
     flex-direction: row;
     background-color: rgba(230, 230, 230, 0.718); 
     border-radius: 10%;
-}
-.destacado-vehiculos h2{
-    color: black;
-    font-weight: bold;
-}
-.destacado-vehiculos div{
-    color: rgb(53, 52, 52);
-    font-weight: 600;
+    h2{
+        color: black;
+        font-weight: bold;
+    }
+    div{
+        color: rgb(53, 52, 52);
+        font-weight: 600;
+    }
 }
 .noticias-vehiculos{
     display: flex;
@@ -137,55 +137,56 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     box-shadow: 2px 2px 2px 2px gray;
+    .noticia-1V{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight: 600;
+        }
+    }
+    .noticia-2V{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight: 600;
+        }
+    }
+    .noticia-3V{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight: 600;
+        }
+    }
 }
-.noticia-1V{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-.noticia-1V img{
-    border-radius: 360%;
-}
-.noticia-1V h5{
-    color: #000;
-    font-weight: bold;
-}
-.noticia-1V div{
-    color: rgb(53, 52, 52);
-    font-weight: 600;
-}
-.noticia-2V{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
-.noticia-2V img{
-    border-radius: 360%;
-}
-.noticia-2V h5{
-    color: #000;
-    font-weight: bold;
-}
-.noticia-2V div{
-    color: rgb(53, 52, 52);
-    font-weight: 600;
-}
-.noticia-3V{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-.noticia-3V img{
-    border-radius: 360%;
-}
-.noticia-3V h5{
-    color: #000;
-    font-weight: bold;
-}
-.noticia-3V div{
-    color: rgb(53, 52, 52);
-    font-weight: 600;
-}
+
 
 .destacado-computacion{
     display: flex;
