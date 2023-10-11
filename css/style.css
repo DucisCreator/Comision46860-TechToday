@@ -724,17 +724,17 @@ html {
     border-width: 5%;
     align-items: center;
   }
-  .noticia-1S {
+  .noticias-smartphones .noticia-1S {
     display: flex;
     flex-direction: column;
     border-width: 5%;
   }
-  .noticia-2S {
+  .noticias-smartphones .noticia-2S {
     display: flex;
     flex-direction: column-reverse;
     border-width: 5%;
   }
-  .noticia-3S {
+  .noticias-smartphones .noticia-3S {
     display: flex;
     flex-direction: column;
     border-width: 5%;
@@ -787,36 +787,7 @@ html {
   }
 }
 @media (max-width: 767px) { /*formato teléfono*/
-  .destacado-vehiculos {
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    margin: 5%;
-    border-width: 5%;
-  }
-  .noticias-vehiculos {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    border-width: 5%;
-    align-items: center;
-  }
-  .noticia-1V {
-    display: flex;
-    flex-direction: column;
-    border-width: 5%;
-  }
-  .noticia-2V {
-    display: flex;
-    flex-direction: column-reverse;
-    border-width: 5%;
-  }
-  .noticia-3V {
-    display: flex;
-    flex-direction: column;
-    border-width: 5%;
-  }
-  .navegacion_vehiculos li:hover a {
+  .vehiculos_home nav .navegacion_vehiculos li:hover a {
     background: rgba(0, 77, 86, 0.4196078431);
     margin: 5px;
     background-position: center;
@@ -826,8 +797,6 @@ html {
     padding-bottom: 1%;
     flex-basis: 15%;
   }
-}
-@media (min-width: 768px) and (max-width: 990px) { /*formato tablet*/
   .destacado-vehiculos {
     display: flex;
     flex-direction: column;
@@ -837,23 +806,29 @@ html {
   }
   .noticias-vehiculos {
     display: flex;
+    flex-direction: column;
     margin: 5px;
     border-width: 5%;
     align-items: center;
   }
-  .noticia-1V {
+  .noticias-vehiculos .noticia-1V {
     display: flex;
+    flex-direction: column;
     border-width: 5%;
   }
-  .noticia-2V {
+  .noticias-vehiculos .noticia-2V {
     display: flex;
+    flex-direction: column-reverse;
     border-width: 5%;
   }
-  .noticia-3V {
+  .noticias-vehiculos .noticia-3V {
     display: flex;
+    flex-direction: column;
     border-width: 5%;
   }
-  .navegacion_vehiculos li:hover a {
+}
+@media (min-width: 768px) and (max-width: 990px) { /*formato tablet*/
+  .vehiculos_home nav .navegacion_vehiculos li:hover a {
     background: rgba(68, 31, 143, 0.4196078431);
     margin: 10px;
     background-position: center;
@@ -863,9 +838,38 @@ html {
     padding-bottom: 2.5%;
     flex-basis: 40%;
   }
+  .destacado-vehiculos {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    margin: 5%;
+    border-width: 5%;
+  }
+  .noticias-vehiculos {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-width: 5%;
+    align-items: center;
+  }
+  .noticias-vehiculos .noticia-1V {
+    display: flex;
+    flex-direction: column;
+    border-width: 5%;
+  }
+  .noticias-vehiculos .noticia-2V {
+    display: flex;
+    flex-direction: column-reverse;
+    border-width: 5%;
+  }
+  .noticias-vehiculos .noticia-3V {
+    display: flex;
+    flex-direction: column;
+    border-width: 5%;
+  }
 }
 @media (min-width: 991px) { /*formato escritorio*/
-  .navegacion_vehiculos li:hover a {
+  .vehiculos_home nav .navegacion_vehiculos li:hover a {
     margin: 15px;
     background-position: center;
     background-size: auto;
@@ -874,36 +878,7 @@ html {
   }
 }
 @media (max-width: 767px) { /*formato teléfono*/
-  .destacado-computacion {
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    margin: 5%;
-    border-width: 5%;
-  }
-  .noticias-computacion {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    border-width: 5%;
-    align-items: center;
-  }
-  .noticia-1C {
-    display: flex;
-    flex-direction: column;
-    border-width: 5%;
-  }
-  .noticia-2C {
-    display: flex;
-    flex-direction: column-reverse;
-    border-width: 5%;
-  }
-  .noticia-3C {
-    display: flex;
-    flex-direction: column;
-    border-width: 5%;
-  }
-  .navegacion_computacion li:hover a {
+  .computacion_home nav .navegacion_computacion li:hover a {
     background: rgba(0, 77, 86, 0.4196078431);
     margin: 5px;
     background-position: center;
@@ -913,8 +888,47 @@ html {
     padding-bottom: 1%;
     flex-basis: 15%;
   }
+  .destacado-computacion {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    margin: 5%;
+    border-width: 5%;
+  }
+  .noticias-computacion {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-width: 5%;
+    align-items: center;
+  }
+  .noticias-computacion .noticia-1C {
+    display: flex;
+    flex-direction: column;
+    border-width: 5%;
+  }
+  .noticias-computacion .noticia-2C {
+    display: flex;
+    flex-direction: column-reverse;
+    border-width: 5%;
+  }
+  .noticias-computacion .noticia-3C {
+    display: flex;
+    flex-direction: column;
+    border-width: 5%;
+  }
 }
 @media (min-width: 768px) and (max-width: 990px) { /*formato tablet*/
+  .computacion_home nav .navegacion_computacion li:hover a {
+    background: rgba(68, 31, 143, 0.4196078431);
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7rem;
+    color: #5909a9;
+    padding-bottom: 2.5%;
+    flex-basis: 40%;
+  }
   .destacado-computacion {
     display: flex;
     flex-direction: column;
@@ -928,31 +942,21 @@ html {
     border-width: 5%;
     align-items: center;
   }
-  .noticia-1C {
+  .noticias-computacion .noticia-1C {
     display: flex;
     border-width: 5%;
   }
-  .noticia-2C {
+  .noticias-computacion .noticia-2C {
     display: flex;
     border-width: 5%;
   }
-  .noticia-3C {
+  .noticias-computacion .noticia-3C {
     display: flex;
     border-width: 5%;
-  }
-  .navegacion_computacion li:hover a {
-    background: rgba(68, 31, 143, 0.4196078431);
-    margin: 10px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 7rem;
-    color: #5909a9;
-    padding-bottom: 2.5%;
-    flex-basis: 40%;
   }
 }
 @media (min-width: 991px) { /*formato escritorio*/
-  .navegacion_computacion li:hover a {
+  .computacion_home nav .navegacion_computacion li:hover a {
     margin: 15px;
     background-position: center;
     background-size: auto;
