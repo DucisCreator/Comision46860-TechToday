@@ -1,0 +1,14 @@
+@mixin destacado($dis, $direction, $b-size, $margin, $border){
+    display: $dis;
+    flex-direction: $direction;
+    background-size: $b-size;
+    margin: $margin;
+    border-width: $border;
+}
+@mixin visita($screen, $f-direction, $mar, $bor-w, $align){
+    display: $screen;
+    flex-direction: $f-direction;
+    margin: $mar;
+    border-width: $bor-w;
+    align-items: $align;
+}

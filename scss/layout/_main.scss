@@ -1,0 +1,313 @@
+.noticias-home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 5%;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px gray;
+    .noticia-1{
+        display: flex;
+        flex-direction: row;
+        overflow:hidden;
+        justify-content: left;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight: 600;
+        }
+    }
+    .noticia-2{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        justify-content: right;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight: 600;
+        }
+    }
+}
+
+.destacado-smartphones{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(230, 230, 230, 0.718); 
+    border-radius: 10%;
+    img{
+        border-radius: 20%;
+    }
+    h2{
+        color: #000000;
+        font-weight: bold;
+    }
+    div{
+        color: rgb(53, 52, 52);
+        font-weight: 600;
+    }
+}
+.noticias-smartphones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px gray;
+    .noticia-1S{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight: 600;
+        }
+    }
+    .noticia-2S{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight: 600;
+        }
+    }
+    .noticia-3S{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        img{
+            border-radius: 360%;
+        }
+        h5{
+            color: #000;
+            font-weight: bold;
+        }
+        div{
+            color: rgb(53, 52, 52);
+            font-weight:600;
+        }
+    }
+    
+}
+
+.destacado-vehiculos{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(230, 230, 230, 0.718); 
+    border-radius: 10%;
+}
+.destacado-vehiculos h2{
+    color: black;
+    font-weight: bold;
+}
+.destacado-vehiculos div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+.noticias-vehiculos{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.noticia-1V{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.noticia-1V img{
+    border-radius: 360%;
+}
+.noticia-1V h5{
+    color: #000;
+    font-weight: bold;
+}
+.noticia-1V div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+.noticia-2V{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.noticia-2V img{
+    border-radius: 360%;
+}
+.noticia-2V h5{
+    color: #000;
+    font-weight: bold;
+}
+.noticia-2V div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+.noticia-3V{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.noticia-3V img{
+    border-radius: 360%;
+}
+.noticia-3V h5{
+    color: #000;
+    font-weight: bold;
+}
+.noticia-3V div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+
+.destacado-computacion{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(230, 230, 230, 0.718); 
+    border-radius: 10%;
+}
+.destacado-computacion img{
+    border-radius: 20%;
+}
+.destacado-computacion h2{
+    color: #000;
+    font-weight: bold;
+}
+.destacado-computacion div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+.noticias-computacion{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.noticia-1C{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.noticia-1C img{
+    border-radius: 360%;
+}
+.noticia-1C h5{
+    color: #000;
+    font-weight: bold;
+}
+.noticia-1C div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+.noticia-2C{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.noticia-2C img{
+    border-radius: 360%;
+}
+.noticia-2C h5{
+    color: #000;
+    font-weight: bold;
+}
+.noticia-2C div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+.noticia-3C{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.noticia-3C img{
+    border-radius: 360%;
+}
+.noticia-3C h5{
+    color: #000;
+    font-weight: bold;
+}
+.noticia-3C div{
+    color: rgb(53, 52, 52);
+    font-weight: 600;
+}
+
+.destacado-redes{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(230, 230, 230, 0.718); 
+    border-radius: 10%;
+    h2{
+        color: #000;
+        font-weight: bold;
+    }
+    div{
+        color: rgb(53, 52, 52);
+        font-weight: 600;
+    }
+}    
+.visita-redes{
+    .red-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        grid-area: red-1;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 20fr;
+        grid-template-rows: 20fr;
+        grid-template-areas: 
+        "red-1 red-1 red-1"
+        ". red-2 ."
+        "red-3 red-3 red-3"
+        ;
+        justify-content:flex-start;
+        box-shadow: $box-shadow;
+    }
+    .red-1 img{
+        border-radius: $radius;
+    }
+    .red-2{
+        @extend .red-1;
+        grid-area: red-2;
+    }
+    .red-2 img{
+        border-radius: $radius;
+    }
+    .red-3{
+        @extend .red-2;
+        grid-area: red-3;
+    }
+    .red-3 img{
+        border-radius: $radius;
+    }
+}
